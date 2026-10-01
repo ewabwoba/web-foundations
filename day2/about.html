@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../day2/styles.css">
-    <title>QuickNotes</title>
+    <title>QuickNotes - About</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,21 +18,27 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                 <li><a href="about.html">features</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+
         <section>
             <h2>About QuickNotes</h2>
-            <p>QuickNotes is a simple web application designed to help you capture your ideas and notes quickly. Whether
-                you're brainstorming, jotting down reminders, or keeping track of tasks, QuickNotes provides a
-                straightforward interface to manage your notes efficiently.</p>
+
+            <p>
+                QuickNotes is a simple web application designed to help you
+                capture your ideas and notes quickly. Whether you're
+                brainstorming, jotting down reminders, or keeping track of
+                tasks, QuickNotes provides a straightforward interface to
+                manage your notes efficiently.
+            </p>
         </section>
 
         <section>
             <h2>How to Use QuickNotes</h2>
+
             <ol>
                 <li>Fill out the form on the home page with a title and content.</li>
                 <li>Click "Add Note" to save your note.</li>
@@ -42,7 +48,8 @@
 
         <section>
             <h2>Features</h2>
-            <ul>
+
+            <ul class="features">
                 <li>Add and save notes with titles and content.</li>
                 <li>View a list of all your saved notes.</li>
                 <li>Simple and user-friendly interface.</li>
@@ -51,16 +58,20 @@
 
         <section>
             <h2>Keyboard Shortcuts</h2>
+
             <p>Here are some useful keyboard shortcuts:</p>
+
             <table>
                 <tr>
                     <th>Shortcut</th>
                     <th>Action</th>
                 </tr>
+
                 <tr>
                     <td>Ctrl + Enter</td>
                     <td>Save your note</td>
                 </tr>
+
                 <tr>
                     <td>Ctrl + Shift + N</td>
                     <td>Create a new note</td>
@@ -70,18 +81,25 @@
 
         <section>
             <h2>Send Feedback</h2>
+
             <form id="feedback-form">
+
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
+
                 <label for="feedback">Feedback:</label>
-                <textarea id="feedback" name="feedback" placeholder="Enter your feedback here..." required></textarea>
+                <textarea id="feedback" name="feedback"
+                    placeholder="Enter your feedback here..." required></textarea>
+
                 <button type="submit">Submit Feedback</button>
+
             </form>
         </section>
-    </main>
 
+    </main>
 
     <footer>
         <p>&copy; 2026 QuickNotes. All rights reserved.</p>
