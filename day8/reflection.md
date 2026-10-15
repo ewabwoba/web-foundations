@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+The most difficult concept in the course was system design, especially scaling and caching. At first I tried to memorise the components (cache, load balancer, replicas) without understanding why each one exists. What helped was the "add one component at a time, each for a reason" approach: I started with one server and one database, used the estimates to find where it would break, and only then added something. Doing the numbers for the URL shortener, and later for TicketHub, made the reasons concrete. Transactions were also hard, but writing the conditional UPDATE for seat holds and testing it on paper with two users helped me see why only one of them can win.
+
+Based on the feedback I received, the part of my capstone I would improve is the architecture explanation. My classmates said the diagram was clear, but I moved through the trade-off too quickly and did not show a request in the Network tab when creating a note. Next time I would slow down, explain what I gave up with each choice, and prove my API works using the browser's developer tools.
+
+Next I will build a real backend with Node.js and Express and connect it to a PostgreSQL database, so QuickNotes can store notes for real users. After that I want to learn React and keep practising system design with The System Design Primer.
